@@ -1,0 +1,399 @@
+.Page1-Motorsport {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+.Image126 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  right: 200px;
+  transition: all 1s cubic-bezier(.29,.04,.52,1);
+}
+.Drive-top {
+  position: relative;
+  bottom: 200px;
+  transition: all 1s cubic-bezier(.29,.04,.52,1);
+}
+.Page1-Motorsport-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 80%;
+  width: 50%;
+  z-index: 1;
+  color: white;
+}
+.Page1-Motorsport-left > h2 {
+  color: white;
+  box-shadow: black;
+  box-shadow: rgb(0, 0, 0);
+  filter: drop-shadow(0 0 25px rgba(0, 0, 0, 0.9));
+  font-size: 40px;
+}
+.Page1-Motorsport-left > h1 {
+  color: white;
+  box-shadow: rgb(0, 0, 0);
+  filter: drop-shadow(0 0 25px rgba(0, 0, 0, 0.9));
+  font-size: 100px;
+}
+
+.Page2-Motorsport {
+  height: 700px;
+  width: 100%;
+  display: flex;
+}
+.Page2-Motorsport-left {
+  width: 70%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 20px;
+  margin-left: 10%;
+}
+
+
+.menu-Motorsport .A-text-Motorsport {
+  position: relative;
+  display: flex;
+  padding: 5px;
+  left: 0px;
+  cursor: pointer;
+}
+
+.menu-Motorsport .A-text-Motorsport::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 30%;
+  height: 2px;
+  background: linear-gradient(to right, #000000, #000000, #000000);
+  z-index: 1;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease-in-out;
+}
+.Borderbottom {
+  background-color: rgba(0, 0, 0, 0.175);
+  width: 30%;
+  height: 1px;
+}
+
+.menu-Motorsport .A-text-Motorsport:hover::before {
+  transform: scaleX(1);
+}
+
+.menu-Motorsport[data-animation="to-left"] .A-text-Motorsport::before {
+  transform-origin: right;
+}
+
+.menu-Motorsport[data-animation="center"] .A-text-Motorsport::before {
+  transform-origin: center;
+}
+
+.menu-Motorsport[data-animation="bonus"] .A-text-Motorsport::before {
+  transform-origin: right;
+}
+
+.menu-Motorsport-Motorsport[data-animation="bonus"] .A-text-Motorsport:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+  transition-timing-function: cubic-bezier(0.2, 1, 0.82, 0.94);
+}
+
+.Page2-Motorsport-left > p {
+  color: rgba(0, 0, 0, 0.576);
+  width: 50%;
+  line-height: 28px;
+}
+.Page2-Motorsport-left > h1 {
+  color: rgb(0, 0, 0);
+  width: 70%;
+}
+.Image127 {
+  width: 100%;
+  height: 95%;
+  clip-path: polygon(87% 0, 100% 0, 100% 100%, 0% 100%);
+  position: relative;
+  bottom: 200px;
+  transition: all 1s cubic-bezier(.29,.04,.52,1);
+}
+.Image131 {
+  width: 100%;
+  height: 95%;
+  clip-path: polygon(37% 0, 100% 0, 100% 100%, 0% 100%);
+  position: relative;
+  bottom: 200px;
+  transition: all 1s cubic-bezier(.29,.04,.52,1);
+}
+.Page2-Motorsport-right {
+  width: 50%;
+  height: 100%;
+}
+.Page3-Motorsport { 
+  display: flex;
+  width: 100%;
+  height: 700px;
+}
+.Image128 {
+  width: 50%;
+  height: 70%;
+  clip-path: polygon(11% 0, 100% 0, 49% 100%, 0 100%, 0 16%);
+  position: relative;
+  bottom: 200px;
+  transition: all 1s cubic-bezier(.29,.04,.52,1);
+  left: 0;
+}
+.Image129 {
+  width: 50%;
+  height: 70%;
+  clip-path: polygon(32% 0, 100% 0, 100% 74%, 85% 100%, 0 100%, 21% 35%);
+  position: relative;
+  bottom: 200px;
+  transition: all 1s cubic-bezier(.29,.04,.52,1);
+}
+.Page4-Motorsport {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.Page4-Motorsport-left > p {
+  color: rgba(0, 0, 0, 0.576);
+  width: 70%;
+  line-height: 28px;
+}
+.Page4-Motorsport-left > h1 {
+  color: rgb(0, 0, 0);
+  width: 50%;
+}
+.Image130 {
+  width: 100%;
+  height: 65%;
+  clip-path: polygon(0 0, 78% 0, 24% 100%, 0% 100%);
+  position: relative;
+  bottom: 200px;
+  transition: all 1s cubic-bezier(.29,.04,.52,1);
+}
+.Page4-Motorsport {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+.Page4-Motorsport-left {
+  width: 70%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 20px;
+  margin-left: 20%;
+}
+.Page4-Motorsport-right {
+  width: 50%;
+  height: 100%;
+}
+.Page5-Motorsport {
+  height: 800px;
+  width: 100%;
+  display: flex;
+}
+.Page5-Motorsport-left {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 20px;
+  margin-left: 10%;
+}
+.Page5-Motorsport-left > p {
+  color: rgba(0, 0, 0, 0.576);
+  width: 70%;
+  line-height: 28px;
+}
+.Page5-Motorsport-left > h1 {
+  color: rgb(0, 0, 0);
+  width: 50%;
+}
+.Page5-Motorsport-right {
+  width: 70%;
+  height: 100%;
+}
+
+
+
+@media only screen and (max-width: 1281px) {
+  .Page5-Motorsport-left {
+    width: 80%;
+  }
+  .Page5-Motorsport-right {
+    width: 70%;
+    height: 100%;
+  }
+  .Image131 {
+    width: 100%;
+    height: 85%;
+    clip-path: polygon(37% 0, 100% 0, 100% 100%, 0% 100%);
+  }
+  .Page1-Motorsport-left {
+    width: 100%;
+  }
+  .Page2-Motorsport-left {
+    width: 100%;
+    margin: 10%;
+  }
+  .Page2-Motorsport-left > p {
+    width: 80%;
+  }
+  .Page2-Motorsport-left > h1 {
+    width: 80%;
+  }
+  .Page5-Motorsport-left > p {
+    width: 80%;
+  }
+  .Page5-Motorsport-left > h1 {
+    width: 80%;
+  }
+  .Page5-Motorsport {
+    height: 500px;
+  }
+  .Image131 {
+    height: 100%;
+  }
+}
+@media only screen and (max-width: 821px) {
+  .Page1-Motorsport {
+    height: 500px;
+  }
+  .Image126 {
+    height: 500px;
+  }
+  .Page1-Motorsport-left {
+    width: 100%;
+  }
+  .Page2-Motorsport {
+    flex-wrap: wrap;
+    height: 100%;
+  }
+  .Page2-Motorsport-left {
+    width: 100%;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-bottom: 1px solid black;
+    padding-bottom: 50px;
+    padding-top: 50px;
+  }
+  .Page2-Motorsport-left > p {
+    color: rgba(0, 0, 0, 0.576);
+    width: 70%;
+    line-height: 28px;
+  }
+  .Page2-Motorsport-left > h1 {
+    color: rgb(0, 0, 0);
+    width: 70%;
+  }
+  .Page2-Motorsport-right {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .Image127 {
+    clip-path: none;
+    width: 100%;
+  }
+  .Borderbottom {
+    width: 100%;
+  }
+  .menu-Motorsport .A-text-Motorsport::before {
+    width: 100%;
+  }
+  .Page3-Motorsport {
+    flex-wrap: wrap;
+    height: 100%;
+    padding-bottom: 100px;
+  }
+  .Image128 {
+    width: 100%;
+    height: 500px;
+    clip-path: none;
+    position: relative;
+
+  }
+  .Image129 {
+    height: 500px;
+    width: 100%;
+    clip-path: none;
+    position: relative;
+  }
+  .Page4-Motorsport {
+    flex-wrap: wrap;
+    height: 100%;
+    padding-bottom: 100px;
+  }
+  .Page4-Motorsport-right {
+    width: 100%;
+  }
+  .Image130 {
+    width: 100%;
+    clip-path: none;
+  }
+  .Page4-Motorsport-left {
+    width: 100%;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-bottom: 1px solid black;
+    padding-bottom: 50px;
+    padding-top: 50px;
+  }
+  .Page4-Motorsport-left > p {
+    color: rgba(0, 0, 0, 0.576);
+    width: 70%;
+    line-height: 28px;
+  }
+  .Page4-Motorsport-left > h1 {
+    color: rgb(0, 0, 0);
+    width: 70%;
+  }
+  .Page5-Motorsport {
+    height: 100%;
+    flex-wrap: wrap;
+  }
+  .Page5-Motorsport-left {
+    margin: 0;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+  }
+  .Page5-Motorsport-left > p {
+    color: rgba(0, 0, 0, 0.576);
+    width: 70%;
+    line-height: 28px;
+  }
+  .Page5-Motorsport-left > h1 {
+    color: rgb(0, 0, 0);
+    width: 70%;
+  }
+  .Page5-Motorsport-right {
+    width: 100%;
+  }
+  .Image131 {
+    clip-path: none;
+  }
+}
+@media only screen and (max-width:450px) {
+  .Page1-Motorsport-left > h1 {
+    font-size: 60px;
+  }
+  .Page1-Motorsport-left > h2 {
+    font-size: 30px;
+  }
+}

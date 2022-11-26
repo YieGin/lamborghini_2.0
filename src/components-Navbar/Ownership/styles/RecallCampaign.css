@@ -1,0 +1,277 @@
+.ListRecall-1 {
+  display: flex;
+  height: 800px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+.Image102 {
+  position: absolute;
+  width: 100%;
+  height: 800px;
+  right: 800px;
+  transition: all 1s cubic-bezier(.29,.04,.52,1);
+  opacity: 0.9;
+}
+.Recall_Text_1 {
+  z-index: 1;
+  font-size: 30;
+  position: relative;
+  right: 200px;
+  transition: all 1s cubic-bezier(.29,.04,.52,1);
+  
+}
+.Recall_Text_1-h1 {
+  font-size: 100px;
+  color: white;
+  z-index: 1;
+  position: relative;
+  right: 200px;
+  transition: all 1s cubic-bezier(.29,.04,.52,1);
+  box-shadow: rgb(64, 0, 255);
+  filter: drop-shadow(0 0 25px rgba(0, 48, 242, 0.9));
+}
+.Recall_Text_2-h1 {
+  font-size: 100px;
+  color: rgb(0, 0, 0);
+  z-index: 1;
+  position: relative;
+  right: 200px;
+  transition: all 1s cubic-bezier(.29,.04,.52,1);
+  box-shadow: rgb(255, 255, 255);
+  filter: drop-shadow(0 0 25px rgba(255, 255, 255, 0.9));
+}
+.Recall_Text_1-h2 {
+  font-size: 40px;
+  color: white;
+  z-index: 1;
+  position: relative;
+  right: 200px;
+  transition: all 1s cubic-bezier(.29,.04,.52,1);
+  box-shadow: rgb(64, 0, 255);
+  filter: drop-shadow(0 0 25px rgba(0, 48, 242, 0.9));
+}
+.Recall_Text-div {
+  width: 70%;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.Recall-2 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  row-gap: 50px;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+}
+.Recall-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 20px;
+  width: 80%;
+}
+.Recall-2 > h1 {
+  font-size: 45px;
+}
+.Recall-bottom > p {
+  color: rgba(0, 0, 0, 0.301);
+  font-size: 13px;
+}
+.Recall-input {
+  color: black;
+  width: 400px;
+  height: 40px;
+  border-top: none;
+  border-left: 0;
+  border-right: 0;
+  padding-left: 20px;
+  position: relative;
+  right: 200px;
+  transition: all 1s cubic-bezier(.29,.04,.52,1);
+}
+.dqsdsqd {
+  color: black;
+  width: 600px;
+  height: 70px;
+  border-top: none;
+  border-left: 0;
+  border-right: 0;
+  padding-left: 20px;
+}
+.Recall-3 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding-bottom: 100px;
+}
+.Recall-left-3 {
+  width: 70%;
+  height: 100%;
+}
+.Recall-right-3 {
+  width: 50%;
+  height: 400px;
+  row-gap: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.Recall-right-3 > p {
+  width: 50%;
+  line-height: 25px;
+  color: rgba(0, 0, 0, 0.662);
+}
+.Recall-right-3 > h1 {
+  width: 50%;
+  line-height: 25px;
+}
+.Image103 {
+  width: 100%;
+  height: 500px;
+  clip-path: polygon(0 0, 100% 0, 56% 100%, 0% 100%);
+  position: relative;
+  right: 200px;
+  transition: all 1s cubic-bezier(.29,.04,.52,1);
+}
+.Recall_Text_3-h1 {
+  position: relative;
+  right: 200px;
+  transition: all 1s cubic-bezier(.29,.04,.52,1);
+}
+.Recall-inputttt {
+  width: 500px;
+  height: 5000px;
+}
+
+
+@media only screen and (max-width: 1281px) {
+  .Recall-2 {
+    width: 100%;
+  }
+  .Recall-right-3 {
+    width: 70%;
+  }
+} 
+
+
+@media only screen and (max-width: 1025px) {
+  .Recall-2 {
+    width: 100%;
+  }
+  .Recall-3 {
+    flex-wrap: wrap;
+    height: 100%;
+    padding-bottom: 20px;
+  }
+  .Recall-left-3 {
+    width: 100%;
+    height: 500px;
+  }
+  .Recall-right-3 {
+    width: 100%;
+  }
+  .Image103 {
+    width: 100%;
+    height: 100%;
+    clip-path: none;
+  }
+} 
+
+@media only screen and (max-width: 900px) {
+  .Image102 {
+    height: 400px;
+  }
+  .ListRecall-1 {
+    height: 400px;
+  }
+  .Recall_Text-div {
+    width: 100%;
+    height: 400px;
+  }
+} 
+
+
+@media only screen and (max-width: 541px) {
+  .Recall_Text_1-h2 {
+    font-size: 30px;
+  }
+  .Recall_Text_1-h1 {
+    font-size: 54px;
+  }
+  .Recall-bottom > p {
+    color: rgba(0, 0, 0, 0.301);
+    font-size: 10px;
+  }
+  .Recall-right-3 {
+    height: 500px;
+    width: 100%;
+  }
+  .Recall-left-3 {
+    width: 100%;
+    height: 300px;
+  }
+  .Recall_Text_3-h1- {
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 25px;
+  }
+  .Image103 { 
+    height: 100%;
+  }
+} 
+
+
+@media only screen and (max-width: 541px) {
+  .Recall-input {
+    width: 100%;
+    color: black;
+  }
+  .Recall-right-3 {
+    height: 100%;
+    width: 100%;
+  }
+  .Recall_Text_3-h1 {
+    width: 100%;
+    font-size: 15px;
+  }
+  .Recall-right-3 > h1 {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+} 
+
+@media only screen and (max-width: 441px) {
+  .Recall-input {
+    width: 90%;
+    color: black;
+  }
+  .Recall_Text_3-h1- {
+    width: 100%;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .Recall-right-3 {
+    width: 100%;
+    height: 100%;
+    row-gap: 20px;
+    display: flex;
+  }
+  .Recall_Text_3-h1 {
+    width: 100px;
+    font-size: 10px;
+  }
+  .Recall-right-3 > p {
+    width: 80%;
+  }
+} 

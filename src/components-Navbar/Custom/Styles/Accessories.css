@@ -1,0 +1,355 @@
+.Accessories_Page1 {
+  display: flex;
+  height: 1000px;
+  width: 100%;
+  background-color: black;
+}
+.Image65 {
+  width: 100%;
+  height: 1000px;
+  opacity: 0.8;
+  position: absolute;
+  right: 1500px;
+  object-fit:cover;
+  transition: all 1s cubic-bezier(.29,.04,.52,1);
+}
+.Accesori_H1 {
+  z-index: 1;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  font-size: 50px;
+  position: relative;
+  left: 800px;
+  transition: all 1s cubic-bezier(.29,.04,.52,1);
+  box-shadow: rgb(0, 0, 0);
+  filter: drop-shadow(0 0 25px rgba(0, 0, 0, 0.9));
+}
+.Svg_Accessories {
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  position: absolute;
+  right: 20px;
+  cursor: pointer;
+}
+.Svg_Accessories-Left {
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  position: absolute;
+  left: 20px;
+  cursor: pointer;
+}
+.Accessories_Page2 {
+  display: flex;
+  width: 100%;
+  height: 700px;
+}
+.Image68 {
+  width: 60%;
+  height: 700px;
+  object-fit: cover;
+  clip-path: polygon(0 0, 100% 0, 61% 100%, 0% 100%);
+  position: relative;
+  right: 600px;
+  transition: all 1s cubic-bezier(.29,.04,.52,1);
+}
+.Accessories_Page2-Right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 80%;
+  row-gap: 20px;
+  width: 50%;
+}
+.FEATURED-ACCESSORIES {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 30px;
+  padding-top: 100px;
+  position: relative;
+  right: 800px;
+  transition: all 1s cubic-bezier(.29,.04,.52,1);
+}
+.Accessories_H3-right {
+  line-height: 30px;
+  width: 65%;
+  position: relative;
+  right: 600px;
+  transition: all 1s cubic-bezier(.29,.04,.52,1);
+}
+.waviy .FEATURED-ACCESSORIES {
+  position: relative;
+  display: inline-block;
+  font-size: 40px;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  animation: waviy 1s infinite;
+  animation-delay: calc(.1s * var(--i))
+}
+.Customize_Your_style {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  position: relative;
+  right: 600px;
+  transition: all 1s cubic-bezier(.29,.04,.52,1);
+}
+.Accessories_Page3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+.Accessories_Page3_Image {
+  display: flex;
+  column-gap: 20px;
+  justify-content: center;
+  display: flex;
+}
+.Accessories_Page3_Image1 {
+  width: 100%;
+  height: 700px;
+  row-gap: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.Accessories_Page3_Image1 > p {
+  color: rgba(33, 33, 33, 0.697);
+  line-height: 25px;
+}
+.Image69 {
+  width: 100%;
+  height: 300px;
+  position: relative;
+  right: 800px;
+  transition: all 1s cubic-bezier(.29,.04,.52,1);
+}
+.Bike_Carpier {
+  position: relative;
+  right: 500px;
+  transition: all 1s cubic-bezier(.29,.04,.52,1);
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.button_container {
+  left: 0;
+  right: 0;
+  top: 30%;
+}
+.btn {
+  border: none;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  outline: none;
+  overflow: hidden;
+  position: relative;
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+  font-size: 15px;
+  background-color: rgb(255, 255, 255);
+  width: 170px;
+  height: 45px;
+  margin: 0 auto;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.20);
+  border: solid 1px rgb(0, 0, 0);
+}
+.btn:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 600%;
+  width: 170%;
+  background: #000000;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
+  transform: translateX(-98%) translateY(-25%) rotate(45deg);
+}
+
+.btn:hover:after {
+  -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+  transform: translateX(-9%) translateY(-25%) rotate(45deg);
+}
+.Accessories_Page4 {
+  display: flex;
+  height: 600px;
+  width: 100%;
+  background-color: black;
+}
+.Image72 {
+  position: absolute;
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+  opacity: 0.8;
+  right: 800px;
+  transition: all 1s cubic-bezier(.29,.04,.52,1);
+}
+.APPOINTMENT {
+  z-index: 1;
+  color: white;
+  width: 100%;
+  font-size: 45px;
+  position: absolute;
+  left: 700px;
+  transition: all 1s cubic-bezier(.29,.04,.52,1);
+}
+
+
+@media only screen and (max-width: 1225px)  {
+  .Accessories_Page3 {
+    padding-bottom: 20px;
+  }
+  .Accesori_H1 {
+    width: 100%;
+    font-size: 50px;
+    position: relative;
+    right: 200px;
+    left: 0;
+  }
+  .Customize_Your_style {
+    width: 100%;
+    right: 400px;
+  }
+  .Accessories_H3-right {
+    width: 90%;
+  }
+  .Accessories_Page1 {
+    display: flex;
+    height: 700px;
+    width: 100%;
+    background-color: black;
+  }
+  .Image65 {
+    width: 100%;
+    height: 745px;
+    opacity: 0.8;
+    position: absolute;
+    right: 500px;
+    object-fit: none;
+    transition: all 1s cubic-bezier(.29,.04,.52,1);
+  }
+}
+
+
+
+@media only screen and (max-width: 821px)  {
+  .Accessories_Page3 {
+    padding-bottom: 20px;
+  }
+  .Accessories_Page3_Image {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .Accesori_H1 {
+    width: 100%;
+    font-size: 50px;
+    position: relative;
+    right: 200px;
+    left: 0;
+  }
+  .Customize_Your_style {
+    width: 100%;
+    right: 400px;
+  }
+  .Accessories_H3-right {
+    width: 90%;
+    right: 200px;
+  }
+  .Accessories_Page1 {
+    display: flex;
+    height: 700px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+  }
+  .Image65 {
+    width: 100%;
+    height: 805px;
+    opacity: 0.8;
+    position: absolute;
+    top: 5px;
+    right: 200px;
+    object-fit: none;
+    transition: all 1s cubic-bezier(.29,.04,.52,1);
+  }
+  .Svg_Accessories {
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60%;
+    position: absolute;
+    right: 0px;
+    cursor: pointer;
+  }
+  .Svg_Accessories-Left {
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60%;
+    position: absolute;
+    left: 0px;
+    cursor: pointer;
+    right: 200px;
+  }
+  .Accessories_Page2 {
+    flex-wrap: wrap;
+    height: 100%;
+    right: 200px;
+  }
+  .Accessories_Page2-Right {
+    width: 100%;
+    align-items: center;
+    right: 200px;
+  }
+  .Accessories_Page3_Image1 {
+    row-gap: 5px;
+    right: 200px;
+  }
+  .Customize_Your_style {
+    padding-top: 20px;
+    right: 200px;
+  }
+  .Bike_Carpier {
+    font-size: 15px;
+    right: 200px;
+  }
+  .Image68 {
+    width: 100%;
+    clip-path: none;
+    right: 200px;
+  }
+}
+
+
+@media only screen and (max-width: 441px)  { 
+  .Accesori_H1 {
+    font-size: 35px;
+  }
+  .Image68 {
+    object-fit:fill ;
+    height: 350px;
+  }
+
+  .waviy .FEATURED-ACCESSORIES {
+    font-size: 30px;
+  }
+}

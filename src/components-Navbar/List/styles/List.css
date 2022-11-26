@@ -1,0 +1,760 @@
+
+
+.ListPage1{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  height: 1000px;
+  background-color: black;
+}
+.ListImage1 {
+  width: 100%;
+  height: 1000px;
+  position: absolute;
+  opacity: 0.9;
+}
+.ListText{
+  width: 50%;
+  z-index: 1;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: white;
+  font-size: 100px;
+  position: relative;
+  right: 800px;
+  transition: all 1s cubic-bezier(.29,.04,.52,1);
+  box-shadow: rgb(64, 0, 255);
+  filter: drop-shadow(0 0 25px rgba(0, 48, 242, 0.9));
+}
+.ListPage2 {
+  height: 500px;
+  display: flex;
+  padding-bottom: 50px;
+}
+.ListPTag {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  line-height: 30px;
+  color: rgba(0, 0, 0, 0.63);
+  font-size: 20px;
+  position: relative;
+  top: 200px;
+  transition: all 1s cubic-bezier(.29,.04,.52,1);
+}
+.ListPTagg {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.651);
+  position: relative;
+  bottom: 200px;
+  transition: all 1s cubic-bezier(.29,.04,.52,1);
+}
+.ListImage2 {
+  width: 34%;
+  height: 500px;
+  clip-path: polygon(76% 0, 100% 0, 100% 100%, 0% 100%);
+  object-fit: cover;
+  position: absolute;
+  right: 0;
+}
+.Image-text-Page2 {
+  height: 500px;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.Image17 {
+  width: 50%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  position: relative;
+  right: 600px;
+  transition: all 1s cubic-bezier(.29,.04,.52,1);
+}
+.ListPage3 {
+  height: 500px;
+  display: flex;
+  width: 100%;
+  padding-bottom: 150px;
+}
+.ImagePage3-4 {
+  width: 50%;
+  clip-path: polygon(29% 0, 100% 0, 100% 60%, 82% 100%, 0 100%, 15% 48%);
+  position: relative;
+  top: 300px;
+  transition: all 1s cubic-bezier(.29,.04,.52,1);
+
+}
+.ImagePage3 {
+  width: 50%;
+  clip-path: polygon(100% 0, 80% 51%, 60% 100%, 0 100%, 0 27%, 14% 0);
+  position: relative;
+  top: 300px;
+  transition: all 1s cubic-bezier(.29,.04,.52,1);
+}
+
+.ListPage4 {
+  height: 500px;
+  display: flex;
+  padding-bottom: 50px;
+}
+.Page4Text {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 30px;
+}
+.Page4P{
+  width: 50%;
+  font-size: 18px;
+  color: rgb(73, 73, 73);
+  line-height: 25px;
+  position: relative;
+  top: 300px;
+  transition: all 1s cubic-bezier(.29,.04,.52,1);
+  position: relative;
+  right: 300px;
+  transition: all 1s cubic-bezier(.29,.04,.52,1);
+}
+
+.Page4Image5 {
+  width: 50%;
+  clip-path: polygon(100% 0, 80% 51%, 60% 100%, 0 100%, 0 27%, 14% 0);
+  object-fit:unset ;
+  position: relative;
+  right: 400px;
+  transition: all 1s cubic-bezier(.29,.04,.52,1);
+}
+
+.not-active {
+  position:absolute;
+  opacity: 0;
+}
+
+.active {
+  width: 100px;
+  height: 100px;
+}
+
+.ListPage5 {
+  height: 900px;
+  display: flex;
+  padding-bottom: 50px;
+  background-color: black;
+}
+.Page5Image {
+  width: 100%;
+  height: 1020px;
+  position: relative;
+  right: 800px;
+  transition: all 1s cubic-bezier(.29,.04,.52,1);
+  opacity: 0.8;
+}
+.Page11Image {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+}
+.SvgList {
+  z-index: 10;
+  fill: rgb(255, 255, 255);
+  height: 80%;
+  right: 30px;
+  position: absolute;
+  cursor: pointer;
+}
+.Svg_Left {
+  z-index: 10;
+  fill: rgb(255, 255, 255);
+  height: 80%;
+  margin-left: 20px;
+  cursor: pointer;
+  position: absolute;
+}
+.ListPage6 {
+  display: flex;
+  width: 100%;
+  height: 500px;
+}
+.ImagePage6 {
+  width: 50%;
+  height: 500px;
+  object-fit: cover;
+  position: absolute;
+  opacity: 0.7;
+}
+.ImagePage6_text {
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.Page6_Text {
+  z-index: 1;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  color: white;
+  font-size: 30px;
+}
+.Page6_Text-Bigger {
+  z-index: 1;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  color: white;
+  font-size: 60px;
+}
+
+
+
+
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+.snip1401 {
+  font-family: 'Playfair Display', Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  min-width: 230px;
+  max-width: 100%;
+  max-height: 100%;
+  color: #ffffff;
+  text-align: right;
+  font-size: 16px;
+  background-color: #000000;
+}
+.Figcaption {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.snip1401 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.snip1401 img {
+  max-width: 100%;
+  backface-visibility: hidden;
+}
+.snip1401 figcaption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  opacity: 1;
+  padding: 40px 0 40px 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 50%;
+  -webkit-transform: translateX(150%);
+  transform: translateX(150%);
+}
+.snip1401 figcaption:before {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: 100%;
+  content: '';
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 120px 120px 120px 0;
+  border-color: transparent rgba(0, 0, 0,0.5) transparent transparent;
+}
+
+.snip1401 h3,
+.snip1401 p {
+  line-height: 1.5em;
+  -webkit-transform: translateX(-30px);
+  transform: translateX(-30px);
+  margin: 0;
+  text-align: center;
+}
+.snip1401 h3 {
+  margin: 0 0 5px;
+  line-height: 1.1em;
+  font-weight: 900;
+  font-size: 1.4em;
+  opacity: 0.75;
+}
+
+.snip1401:hover img,
+.snip1401.hover img {
+  zoom: 1;
+  filter: alpha(opacity=50);
+  -webkit-opacity: 0.5;
+  opacity: 0.5;
+  cursor: pointer;
+}
+.snip1401:hover:after,
+.snip1401.hover:after,
+.snip1401:hover figcaption,
+.snip1401.hover figcaption,
+.snip1401:hover i,
+.snip1401.hover i {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+  opacity: 1;
+  cursor: pointer;
+}
+
+
+@media only screen and (max-width: 1281px) {
+  .ListPTag {
+    width: 80%;
+  }
+  .Extended {
+    font-size: 20px;
+  }
+  .ListPage6 {
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+  .snip1401 img {
+    max-width: 100%;
+    height: 500px;
+    backface-visibility: hidden;
+    max-height: 100%;
+  }
+  .Page5Image {
+    width: 100%;
+    height: 650px;
+    position: relative;
+    right: 500px;
+    transition: all 1s cubic-bezier(.29,.04,.52,1);
+    opacity: 0.8;
+  }
+  .ListPage5 {
+    height: 500px;
+    display: flex;
+    padding-bottom: 50px;
+    background-color: black;
+  }
+  .Svg_Left {
+    z-index: 10;
+    fill: rgb(255, 255, 255);
+    height: 75%;
+    margin-left: 20px;
+    cursor: pointer;
+    position: absolute;
+  }
+  .SvgList {
+    z-index: 10;
+    fill: rgb(255, 255, 255);
+    height: 75%;
+    margin-left: 20px;
+    cursor: pointer;
+    position: absolute;
+  }
+  .ion-ios-home-outline {
+    display: none;
+  }
+  .Image-text-Page2 {
+    width: 70%;
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom: 90px;
+  }
+  .ListPage2 {
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom: 90px;
+  }
+}
+
+
+@media only screen and (max-width: 1025px) {
+  .ListPage6 {
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+  .Browse-div {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    row-gap: 20px;
+    padding-left: 20px;
+    padding-top: 50px;
+  }
+  .ListCustomPage2 {
+    font-size: 25px;
+    width: 100%;
+  }
+  .Extended {
+    font-size: 20px;
+    margin-top: 50px;
+  }
+  .snip1401 img {
+    max-width: 100%;
+    height: 500px;
+    backface-visibility: hidden;
+    max-height: 100%;
+  }
+  .Page5Image {
+    width: 100%;
+    height: 650px;
+    position: relative;
+    right: 500px;
+    transition: all 1s cubic-bezier(.29,.04,.52,1);
+    opacity: 0.8;
+  }
+  .ListPage5 {
+    height: 500px;
+    display: flex;
+    padding-bottom: 50px;
+    background-color: black;
+  }
+  .Svg_Left {
+    z-index: 10;
+    fill: rgb(255, 255, 255);
+    height: 100%;
+    margin-left: 20px;
+    cursor: pointer;
+    position: absolute;
+  }
+  .SvgList {
+    z-index: 10;
+    fill: rgb(255, 255, 255);
+    height: 100%;
+    margin-left: 20px;
+    cursor: pointer;
+    position: absolute;
+  }
+  .ListPage2 {
+    flex-wrap: wrap;
+    height: 100%;
+    padding-bottom: 100px;
+  }
+  .Image-text-Page2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  .ListImage2 {
+    width: 100%;
+    height: 600px;
+    clip-path: none;
+    object-fit: cover;
+    position: relative;
+  }
+  .Page6_Text-Bigger {
+    font-size: 40px;
+  }
+  .Page4Image5 {
+    clip-path: none;
+    object-fit: cover;
+  }
+  .ListPage3 {
+    column-gap: 10px;
+  }
+  .ImagePage3{
+    clip-path: none;
+  }
+  .ImagePage3-4{
+    clip-path: none;
+  }
+}
+
+
+
+@media only screen and (max-width: 821px) {
+  .ListPage2 {
+    flex-wrap: wrap;
+    height: 100%;
+  }
+  .Image-text-Page2 {
+    width: 100%;
+  }
+  .ListImage2 {
+    width: 100%;
+    height: 600px;
+    clip-path: none;
+    object-fit: cover;
+    position: relative;
+  }
+  .Page6_Text-Bigger {
+    font-size: 40px;
+  }
+  .ListPage4 {
+    flex-wrap: wrap;
+    height: 100%;
+  }
+  .Page4Image5 {
+    clip-path: none;
+    object-fit: cover;
+    width: 100%;
+  }
+  .Page4Text {
+    width: 100%;
+  }
+  .Page4Text > h1 {
+    padding-top: 20px;
+  }
+  .Page4P{
+    width: 70%;
+  }
+  .ListPage3 {
+    column-gap: 10px;
+    row-gap: 10px;
+    flex-wrap: wrap;
+    height: 100%;
+  }
+  .ImagePage3{
+    clip-path: none;
+    width: 100%;
+  }
+  .ImagePage3-4{
+    clip-path: none;
+    width: 100%;
+  }
+  .ListPage6 {
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+  .snip1401 img {
+    max-width: 100%;
+    height: 500px;
+    backface-visibility: hidden;
+    max-height: 100%;
+  }
+  .Page5Image {
+    width: 100%;
+    height: 550px;
+    position: relative;
+    right: 500px;
+    transition: all 1s cubic-bezier(.29,.04,.52,1);
+    opacity: 0.8;
+  }
+  .ListPage5 {
+    height: 500px;
+    display: flex;
+    padding-bottom: 50px;
+    background-color: black;
+  }
+  .Svg_Left {
+    z-index: 10;
+    fill: rgb(255, 255, 255);
+    height: 50%;
+    margin-left: 20px;
+    cursor: pointer;
+    position: absolute;
+  }
+  .SvgList {
+    z-index: 10;
+    fill: rgb(255, 255, 255);
+    height: 50%;
+    margin-left: 20px;
+    cursor: pointer;
+    position: absolute;
+  }
+  .ListText{
+    position: relative;
+    right: 500px;
+    transition: all 1s cubic-bezier(.29,.04,.52,1);
+  }
+  .ListPTagg {
+    width: 70%;
+    font-size: 15px;
+  }
+  .Browse-div {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    row-gap: 20px;
+    padding-left: 20px;
+    padding-top: 50px;
+  }
+  .Image84 {
+    height: 500px;
+  }
+}
+
+
+
+
+
+
+@media only screen and (max-width: 541px) {
+  .ListPage1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 500px;
+    background-color: black;
+  }
+  .ListImage1 {
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    opacity: 0.9;
+  }
+  .ListPage2 {
+    flex-wrap: wrap;
+    height: 100%;
+  }
+  .Image-text-Page2 {
+    width: 100%;
+  }
+  .ListImage2 {
+    width: 100%;
+    height: 400px;
+    clip-path: none;
+    object-fit: cover;
+    position: relative;
+  }
+  .Page6_Text-Bigger {
+    font-size: 20px;
+  }
+  .Page6_Text {
+    z-index: 1;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: white;
+    font-size: 55px;
+  }
+  .ListPage4 {
+    flex-wrap: wrap;
+    height: 100%;
+  }
+  .Page4Image5 {
+    clip-path: none;
+    object-fit: cover;
+    width: 100%;
+    height: 400px;
+  }
+  .Page4Text {
+    width: 100%;
+  }
+  .Page4Text > h1 {
+    padding-top: 20px;
+  }
+  .Page4P{
+    width: 90%;
+    font-size: 15px;
+  }
+  .ListPage3 {
+    column-gap: 10px;
+    row-gap: 10px;
+    flex-wrap: wrap;
+    height: 100%;
+  }
+  .ImagePage3{
+    clip-path: none;
+    width: 100%;
+    height: 400px;
+  }
+  .ImagePage3-4{
+    clip-path: none;
+    width: 100%;
+    height: 400px;
+  }
+  .ListPage6 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+  }
+  .snip1401 img {
+    max-width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    max-height: 100%;
+  }
+  .Page5Image {
+    width: 100%;
+    height: 450px;
+    position: relative;
+    right: 200px;
+    transition: all 1s cubic-bezier(.29,.04,.52,1);
+    opacity: 0.8;
+    object-fit: cover;
+  }
+  .ListPage5 {
+    height: 400px;
+    display: flex;
+    padding-bottom: 50px;
+    background-color: black;
+  }
+  .Svg_Left {
+    z-index: 10;
+    fill: rgb(255, 255, 255);
+    height: 50%;
+    margin-left: 20px;
+    cursor: pointer;
+    position: absolute;
+    display: none;
+  }
+  .SvgList {
+    z-index: 10;
+    fill: rgb(255, 255, 255);
+    height: 50%;
+    margin-left: 20px;
+    cursor: pointer;
+    position: absolute;
+    display: none;
+  }
+  .ListText{
+    width: 50%;
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+    font-size: 50px;
+    position: relative;
+    right: 200px;
+    transition: all 1s cubic-bezier(.29,.04,.52,1);
+  }
+  .snip1401 h3 {
+    margin: 0 0 5px;
+    line-height: 1.1em;
+    font-weight: 900;
+    font-size: 1em;
+    opacity: 0.75;
+  }
+  .Image84 {
+    height: 400px;
+    right: 200px;
+  }
+  .ListPTag {
+    font-size: 15px;
+    width: 90%;
+  }
+  .Extended {
+    font-size: 15px;
+    margin-top: 50px;
+  }
+}
+

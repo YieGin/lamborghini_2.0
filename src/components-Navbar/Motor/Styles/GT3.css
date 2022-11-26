@@ -1,0 +1,420 @@
+.Gt3_Main {
+  width: 100%;
+  height: 100%;
+}
+.Page1-Gt {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  padding-bottom: 100px;
+}
+.Image111 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: all 1s cubic-bezier(.29,.04,.52,1);
+  right: 500px;
+}
+.Gt3-top {
+  position: relative;
+  transition: all 1s cubic-bezier(.29,.04,.52,1);
+  bottom: 200px;
+}
+.Page1-gt-left {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  box-shadow: rgb(64, 0, 255);
+  filter: drop-shadow(0 0 25px rgba(0, 48, 242, 0.9));
+  z-index: 1;
+}
+.Page1-gt-left > h3 {
+  font-size: 30px;
+  width: 10%;
+  color: white;
+  box-shadow: rgb(64, 0, 255);
+  filter: drop-shadow(0 0 25px rgba(0, 48, 242, 0.9));
+
+}
+.Page1-gt-left > h1 {
+  font-size: 80px;
+  box-shadow: rgb(64, 0, 255);
+  filter: drop-shadow(0 0 25px rgba(0, 48, 242, 0.9));
+}
+.NewsGt3 {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+.Div-Page2_Gt3 {
+  left: 0;
+  right: 0;
+  top: 30%;
+  height: 200px;
+}
+.Page2_Gt3-Button span {
+  position: relative; 
+  z-index: 1;
+}
+.Page2_Gt3-Button {
+  z-index: 10;
+  border: none;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  outline: none;
+  overflow: hidden;
+  position: relative;
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+  font-size: 15px;
+  background-color: rgb(255, 255, 255);
+  width: 150px;
+  height: 45px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.20);
+  border: 1px black solid;
+}
+.Page2_Gt3-Button:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 400%;
+  width: 140%;
+  background: #000000;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
+  transform: translateX(-98%) translateY(-25%) rotate(45deg);
+  color: white;
+}
+
+.Page2_Gt3-Button:hover:after {
+  -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+  transform: translateX(-9%) translateY(-25%) rotate(45deg);
+  color: white;
+}
+.Div-Page2_Gt3 .Page2_Gt3-Button:hover {
+  color: white;
+}
+.Page2-Gt {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  column-gap: 50px;
+}
+.Gt3-Box {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+.Image112 {
+  width: 100%;
+  height: 200px;
+  position: relative;
+  bottom: 200px;
+  transition: all 1s cubic-bezier(.29,.04,.52,1);
+}
+.Gt3-Box > p {
+  color: rgba(0, 0, 0, 0.592);
+}
+.Gt3-box-h1 {
+  color: rgb(0, 0, 0);
+  width: 100%;
+  font-size: 24px;
+  line-height: 30px;
+  height: 150px;
+}
+.Page3-Gt {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+.Image113 {
+  width: 70%;
+  height: 70%;
+  clip-path: polygon(0 0, 100% 0, 53% 100%, 0% 100%);
+  position: relative;
+  bottom: 300px;
+  transition: all 1s cubic-bezier(.29,.04,.52,1);
+}
+.Page3-gt-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 20px;
+  height: 90%;
+  width: 30%;
+}
+.Page3-gt-right > h1 {
+  color: black;
+  font-size: 30px;
+}
+.Page3-gt-right > p {
+  color: rgba(0, 0, 0, 0.768);
+  font-size: 17px;
+  line-height: 35px;
+  width: 85%;
+}
+.Page4-Gt {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+.Page4-gt-left {
+  width: 40%;
+  height: 70%;
+  row-gap: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Page4-gt-left > h1 {
+  color: black;
+  font-size: 30px;
+  width: 65%;
+}
+.Page4-gt-left > p {
+  color: rgba(0, 0, 0, 0.768);
+  font-size: 17px;
+  line-height: 35px;
+  width: 65%;
+}
+.Page4-gt-left > .menu-GT3 {
+  color: rgba(0, 0, 0, 0.768);
+  font-size: 17px;
+  line-height: 35px;
+  width: 66%;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
+.A-text-GT3 {
+  color: inherit;
+  text-decoration: none;
+  font-size: 18px;
+  position: relative;
+  bottom: 200px;
+  transition: all 1s cubic-bezier(.29,.04,.52,1);
+}
+
+.menu-GT3 {
+  display: block;
+  justify-content: center;
+}
+
+.menu-GT3 .li-text-GT3 {
+  margin-right: 70px;
+}
+
+.menu-GT3 .A-text-GT3 {
+  position: relative;
+  display: block;
+  padding: 5px;
+}
+.Bordrline {
+  width: 100%;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.291);
+  margin-left: 0px;
+}
+.menu-GT3 .A-text-GT3::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(to right, #000000, #ffffff, #000000);
+  z-index: 1;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease-in-out;
+}
+
+.menu-GT3 .A-text-GT3:hover::before {
+  transform: scaleX(1);
+}
+
+.menu-GT3[data-animation="to-left"] .A-text-GT3::before {
+  transform-origin: right;
+}
+
+.menu-GT3[data-animation="center"] .A-text-GT3::before {
+  transform-origin: center;
+}
+
+.menu-GT3[data-animation="bonus"] .A-text-GT3::before {
+  transform-origin: right;
+}
+
+.menu-GT3[data-animation="bonus"] .A-text-GT3:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+  transition-timing-function: cubic-bezier(0.2, 1, 0.82, 0.94);
+}
+.Image116 {
+  width: 60%;
+  height: 100%;
+  clip-path: polygon(38% 0, 100% 0, 100% 100%, 0% 100%);
+  position: relative;
+  bottom: 200px;
+  transition: all 1s cubic-bezier(.29,.04,.52,1);
+}
+
+.Page5-gt {
+  padding-top: 100px;
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  color: black;
+  align-items: center;
+}
+.Page6-gt {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  width: 90%;
+  height: 100%;
+  margin-left: 10%;
+}
+.Image117 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+}
+.Image118 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  padding-top: 50px;
+  padding-bottom: 0px;
+}
+
+@media only screen and (max-width: 1025px) {
+  .Gt3-box-h1 {
+    height: 200px;
+  }
+}
+@media only screen and (max-width: 825px) {
+  .Page1-Gt {
+    height: 500px;
+  }
+  .Image111 {
+    height: 500px;
+  }
+  .Gt3-Box {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .Gt3-box-h1 {
+    height: 50px;
+    width: 70%;
+  }
+  .Page2-Gt {
+    flex-wrap: wrap;
+  }
+  .Div-Page2_Gt3 {
+    left: 0;
+    right: 0;
+    top: 30%;
+    height: 70px;
+  }
+  .NewsGt3 {
+    width: 100%;
+  }
+  .Page3-Gt {
+    flex-wrap: wrap;
+    height: 100%;
+  }
+  .Image113 {
+    width: 100%;
+    clip-path: none;
+  }
+  .Page3-gt-right {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid black;
+  }
+  .Page3-gt-right >p {
+    width: 80%;
+  }
+  .Page4-Gt {
+    flex-wrap: wrap;
+    height: 100%;
+  }
+  .Page4-gt-left {
+    width: 100%;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .Image116 {
+    width: 100%;
+    clip-path: none;
+  }
+  .Page5-gt {
+    width: 100%;
+  }
+  .Page6-gt {
+    padding-top: 0;
+  }
+  .ListDrivers {
+    display: flex;
+    align-items: none;
+    justify-content: none;
+    width: 100%;
+    column-gap: 0;
+  }
+}
+
+@media only screen and (max-width: 541px) {
+  .Gt3-top {
+    width: 70%;
+    font-size: 20px;
+  }
+  .Page1-gt-left > h1 {
+    font-size: 40px;
+  }
+  .Gt3-box-h1 {
+    height: 150px;
+  }
+}
+@media only screen and (max-width: 431px) {
+  .Page1-gt-left > h1 {
+    font-size: 30px;
+  }
+  .Gt3-top {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .Page-6-GT3-Right > p {
+    font-size: 5px;
+  }
+
+}

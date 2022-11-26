@@ -1,0 +1,111 @@
+.CustomVideo {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
+  padding-bottom: 200px;
+}
+.Video3 {
+  width: 100%;
+  padding-top: 100px;
+  height: 500px;
+}
+.ListCustomPage2 {
+  width: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  position: relative;
+  right: 600px;
+  transition: all 1s cubic-bezier(.29,.04,.52,1);
+}
+.WarrancityList_Page4 {
+  height: 450px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-bottom: 70px;
+}
+.Image84 {
+  position: absolute;
+  right: 800px;
+  transition: all 1s cubic-bezier(.29,.04,.52,1);
+  width: 100%;
+}
+.Browse-div {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  row-gap: 20px;
+  padding-left: 20px;
+}
+.Browse-h2 {
+  color: white;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  font-size: 35px;
+  position: relative;
+  right: 400px;
+  transition: all 1s cubic-bezier(.29,.04,.52,1);
+}
+.Browse {
+  color: white;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35%;
+  font-size: 50px;
+  position: relative;
+  right: 400px;
+  transition: all 1s cubic-bezier(.29,.04,.52,1);
+}
+
+
+@media only screen and (max-width: 821px) {
+  .Browse-h2 {
+    font-size: 30px;
+  }
+  .Browse {
+    font-size: 24px;
+  }
+}
+
+
+@media only screen and (max-width: 541px) {
+  .CustomVideo{
+    padding-bottom: 10px;
+    height: 300px;
+  }
+  .Video3 {
+    padding-top: 0px;
+  }
+  .ListCustomPage2 {
+    font-size: 15px;
+  }
+  .Browse-h2 {
+    font-size: 20px;
+    right: 100px;
+  }
+  .Browse {
+    font-size: 20px;
+    right: 100px;
+  }
+  .Image84 {
+    height: 400px;
+    right: 100px;
+  }
+}
+@media only screen and (max-width: 378px) {
+  .ListCustomPage2{
+    font-size: 14px;
+  }
+}

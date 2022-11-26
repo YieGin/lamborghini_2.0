@@ -1,0 +1,149 @@
+.Page1-News {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.Page1-News > h1 {
+  font-size: 80px;
+}
+.Image140 {
+  width: 70%;
+}
+.Page2-News {
+  display: flex;
+  column-gap: 100px;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  height: 500px;
+}
+.Page2-News-left {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  row-gap: 30px;
+}
+.Page2-News-left > p {
+  color: rgba(0, 0, 0, 0.476);
+}
+.Page2-News-right {
+  width: 10%;
+  height: 0%;
+}
+.Page3-News {
+  display: flex;
+  width: 100%;
+  height: 350px;
+  justify-content: center;
+  column-gap: 50px;
+}
+.Page3-News-left {
+  width: 30%;
+  height: 260px;
+}
+.Image141 {
+  height: 100%;
+  width: 100%;
+}
+.Page3-News-right {
+  height: 250px;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.Page3-News-right > p {
+  color: rgba(0, 0, 0, 0.539);
+}
+
+@media only screen and (max-width: 1025px) {
+  .Page3-News-right {
+    width: 50%;
+  }
+  
+}
+
+@media only screen and (max-width: 850px) {
+  .Page3-News-right {
+    width: 40%;
+  }
+  .Page3-News-right > h1 {
+    font-size: 25px;
+  }
+  .Page3-News-left {
+    width: 50%;
+  }
+}
+
+
+@media only screen and (max-width: 541px) {
+  .Page3-News {
+    flex-wrap: wrap;
+    height: 100%;
+  }
+  .Page3-News-left {
+    width: 100%;
+    height: 100%;
+  }
+  .Page3-News-right {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .Page3-News-right > h1 {
+    width: 90%;
+    font-size: 20px;
+  }
+  .Page2-News {
+    flex-wrap: wrap;
+    height: 100%;
+  }
+  .Page2-News-left {
+    width: 100%;
+    align-items: center;
+    padding-top: 50px;
+  }
+  .Page2-News-left > h1 {
+    width: 90%;
+    font-size: 22px;
+  }
+  .Page2-News-left > p {
+    width: 90%;
+  }
+  .Page2-News-right {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 30%;
+  }
+  .Div-Page2_Gt3 {
+    margin: 0;
+    padding: 0;
+  }
+  .Page1-News {
+    height: 500px;
+    border-bottom: 5px solid black;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .Page1-News > h1 {
+    font-size: 50px;
+  }
+  .Image140 {
+    width: 100%;
+    height: 200px;
+  }
+  .Page2-News-left > p {
+    font-size: 13px;
+  }
+  .Page2-News-left > h1 {
+    font-size: 15px;
+  }
+  
+}

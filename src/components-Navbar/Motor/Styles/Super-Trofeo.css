@@ -1,0 +1,486 @@
+.SuperMainPage {
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+.Super_Page1 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+.Super_Page1_left {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgb(0, 0, 0);
+  filter: drop-shadow(0 0 25px rgba(0, 0, 0, 0.9));
+  z-index: 1;
+}
+.Super_Page1_left > h2 {
+  font-size: 40px;
+  z-index: 1;
+  letter-spacing: 0.1em;
+}
+.Super_Page1_left > h1 {
+  font-size: 55px;
+  z-index: 1;
+  letter-spacing: 0.5em;
+}
+.Supr_Page1_right {
+  width: 100%;
+  height: 1000px;
+}
+.Image104 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 200px;
+  transition: all 1s cubic-bezier(.29,.04,.52,1);
+}
+
+
+.Super_Page2 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+.Supr_Page2_left {
+  width: 50%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  row-gap: 20px;
+}
+.Supr_Page2_left > p {
+  color: rgba(0, 0, 0, 0.632);
+  width: 65%;
+  line-height: 30px;
+}
+.Supr_Page2_left > h1 {
+  color: rgb(0, 0, 0);
+  width: 65%;
+  line-height: 30px;
+}
+.menu-Super {
+  width: 67%;
+}
+ul {
+  list-style: none;
+}
+.A-text-Super {
+  color: inherit;
+  text-decoration: none;
+  font-size: 18px;
+  cursor: pointer;
+  position: relative;
+  bottom: 400px;
+  transition: all 1s cubic-bezier(.29,.04,.52,1);
+}
+
+
+.menu-Super .li-text-Super {
+  margin-right: 70px;
+}
+
+.menu-Super .A-text-Super {
+  position: relative;
+  display: block;
+  padding: 5px;
+}
+
+.menu-Super .A-text-Super::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(to right, #000000, #ffffff, #000000);
+  z-index: 1;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease-in-out;
+}
+
+.menu-Super .A-text-Super:hover::before {
+  transform: scaleX(1);
+  
+}
+
+.menu-Super[data-animation="to-left"] .A-text-Super::before {
+  transform-origin: right;
+}
+
+.menu-Super[data-animation="center"] .A-text-Super::before {
+  transform-origin: center;
+}
+
+.menu-Super[data-animation="bonus"] .A-text-Super::before {
+  transform-origin: right;
+}
+
+.menu-Super[data-animation="bonus"] .A-text-Super:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+  transition-timing-function: cubic-bezier(0.2, 1, 0.82, 0.94);
+}
+
+.Supr_Page2_right {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+.Image105 {
+  width: 100%;
+  height: 50%;
+  clip-path: polygon(82% 0, 100% 0, 100% 100%, 25% 100%);
+  position: relative;
+  bottom: 400px;
+  transition: all 1s cubic-bezier(.29,.04,.52,1);
+}
+.Image106 {
+  width: 100%;
+  height: 50%;
+  clip-path: polygon(25% 0%, 100% 0, 100% 70%, 84% 100%, 0 100%, 13% 47%);
+  position: relative;
+  bottom: 400px;
+  transition: all 1s cubic-bezier(.29,.04,.52,1);
+}
+.Super_Page3 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+.Super_Page3-right {
+  width: 50%;
+  height: 90%;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Super_Page3-left {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  width: 50%;
+  height: 100%;
+}
+.Image107 {
+  width: 100%;
+  height: 50%;
+  clip-path: polygon(17% 0, 100% 0, 85% 51%, 69% 100%, 0 100%, 0 23%);
+  position: relative;
+  bottom: 400px;
+  transition: all 1s cubic-bezier(.29,.04,.52,1);
+}
+.Image108 {
+  width: 100%;
+  height: 50%;
+  clip-path: polygon(50% 0%, 69% 0, 29% 100%, 0 100%, 0 0);
+  object-fit: cover;
+  position: relative;
+  bottom: 400px;
+  transition: all 1s cubic-bezier(.29,.04,.52,1);
+}
+
+.Super_Page3-right > p {
+  color: rgba(0, 0, 0, 0.632);
+  width: 65%;
+  line-height: 30px;
+}
+.Super_Page3-right > h1 {
+  color: rgb(0, 0, 0);
+  width: 65%;
+  line-height: 30px;
+}
+
+.Super_Page4 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+.Supr_Page4_left {
+  width: 40%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  row-gap: 20px;
+}
+.Supr_Page4_left > p {
+  color: rgba(0, 0, 0, 0.632);
+  width: 65%;
+  line-height: 30px;
+}
+.Supr_Page4_left > h1 {
+  color: rgb(0, 0, 0);
+  width: 65%;
+  line-height: 30px;
+}
+.Image109 {
+  clip-path: polygon(50% 0%, 100% 0, 100% 100%, 0 100%, 39% 0);
+  width: 100%;
+  height: 80%;
+}
+.Supr_Page4_right {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+
+.Super_Page5 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding-bottom: 50px;
+}
+.Super_Page5-right {
+  width: 50%;
+  height: 60%;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Super_Page5-left {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  width: 50%;
+  height: 100%;
+}
+.Image110 {
+  width: 100%;
+  height: 100%;
+  clip-path: polygon(50% 0%, 100% 0, 46% 100%, 0 100%, 0 0);
+  position: relative;
+  bottom: 400px;
+  transition: all 1s cubic-bezier(.29,.04,.52,1);
+}
+.Motion-text {
+  position: relative;
+  bottom: 400px;
+  transition: all 1s cubic-bezier(.29,.04,.52,1);
+}
+.Super_Page5-right > p {
+  color: rgba(0, 0, 0, 0.632);
+  width: 65%;
+  line-height: 30px;
+}
+.Super_Page5-right > h1 {
+  color: rgb(0, 0, 0);
+  width: 65%;
+  line-height: 30px;
+}
+
+
+
+@media only screen and (max-width: 1281px) {
+  .Super_Page1_left {
+    width: 100%;
+  }
+  .Supr_Page4_left {
+    height: 100%;
+  }
+}
+
+
+@media only screen and (max-width: 1025px) {
+  .A-text-Super {
+    width: 100%;
+    font-size: 14px;
+  }
+}
+
+
+@media only screen and (max-width: 821px) {
+  .A-text-Super {
+    width: 100%;
+    font-size: 24px;
+    bottom: 300px;
+  }
+  .Super_Page1 {
+    height: 500px;
+  }
+  .Image104 {
+    height: 500px;
+  }
+  .Super_Page2 {
+    flex-wrap: wrap;
+    height: 100%;
+  }
+  .Supr_Page2_left {
+    width: 100%;
+    height: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .Supr_Page2_right {
+    width: 100%;
+  }
+  .Image105 {
+    clip-path: none;
+    bottom: 100px;
+  }
+  .Image106 {
+    clip-path: none;
+    bottom: 100px;
+  }
+  .menu-Super {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .Motion-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 100px;
+  }
+  .Super_Page3 {
+    flex-wrap: wrap;
+    height: 100%;
+  }
+  .Super_Page3-left {
+    width: 100%;
+  }
+  .Image107 {
+    clip-path: none;
+  }
+  .Image108 {
+    clip-path: none;
+  }
+  .Super_Page3-right {
+    width: 100%;
+    height: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 2px  #000000 solid;
+  }
+  .Super_Page4 {
+    flex-wrap: wrap;
+    height: 100%;
+  }
+  .Supr_Page4_left {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .Supr_Page4_right {
+    width: 100%;
+  }
+  .Image109 {
+    clip-path: none;
+  }
+  .Super_Page5 {
+    flex-wrap: wrap;
+    height: 100%;
+  }
+  .Super_Page5-left {
+    height: 100%;
+    width: 100%;
+  }
+  .Super_Page5-right {
+    height: 100%;
+    width: 100%;
+    padding-top: 50px;
+  }
+  .Image110 {
+    clip-path: none;
+  }
+}
+
+
+@media only screen and (max-width: 541px) {
+  .Super_Page1_left > h1 {
+    font-size: 25px;
+    box-shadow: rgb(64, 0, 255);
+    filter: drop-shadow(0 0 25px rgba(0, 48, 242, 0.9));
+  }
+  .Super_Page3-right > h1{
+    font-size: 25px;
+    width: 100%;
+  }
+  .Super_Page3-right > h1{
+    font-size: 25px;
+    width: 100%;
+  }
+  .li-text-Super {
+    width: 100%;
+  }
+  .Menue-superdifv {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .menu-Super {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .A-text-Super {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-size: 19px;
+  }
+  .menu-Super .A-text-Super {
+    display: flex;
+  }
+  .Supr_Page4_left > h1 {
+    width: 100%;
+  }
+  .Super_Page5-right >h1 {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 541px) {
+  .Supr_Page4_left> h1 {
+    font-size: 25px;
+    width: 90%;
+    display: block;
+  }
+  .Supr_Page4_left> p {
+    width: 90%;
+  }
+  .Super_Page3-right > p {
+    width: 90%;
+  }
+  .Supr_Page2_left > p {
+    width: 90%;
+  }
+  .Supr_Page2_left > h1 {
+    width: 90%;
+    font-size: 30px;
+  }
+  .Super_Page5-right > h1 {
+    width: 100%;
+    font-size: 23px;
+  }
+  .Super_Page5-right > p {
+    width: 90%;
+  }
+}

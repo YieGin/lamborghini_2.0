@@ -1,0 +1,440 @@
+.ListMainOwner {
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+
+.ListOwner-1 {
+  display: flex;
+  height: 1000px;
+  width: 100%;
+  background-color: black;
+}
+.Image85 {
+  position: absolute;
+  width: 100%;
+  height: 1000px;
+  right: 800px;
+  transition: all 1s cubic-bezier(.29,.04,.52,1);
+  opacity: 0.9;
+}
+.Owner_Text_1 {
+  z-index: 1;
+  font-size: 30;
+  position: relative;
+  right: 500px;
+  transition: all 1s cubic-bezier(.29,.04,.52,1);
+  
+}
+.Owner_Text_1-h1 {
+  font-size: 100px;
+  color: white;
+  z-index: 1;
+  position: relative;
+  right: 500px;
+  transition: all 1s cubic-bezier(.29,.04,.52,1);
+  box-shadow: rgb(64, 0, 255);
+  filter: drop-shadow(0 0 25px rgba(0, 48, 242, 0.9));
+}
+.Owner_Text_1-h2 {
+  font-size: 40px;
+  color: white;
+  z-index: 1;
+  position: relative;
+  right: 500px;
+  transition: all 1s cubic-bezier(.29,.04,.52,1);
+  box-shadow: rgb(64, 0, 255);
+  filter: drop-shadow(0 0 25px rgba(0, 48, 242, 0.9));
+}
+.Owner_Text-div {
+  width: 70%;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.ListOwner-2 {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  color: rgb(255, 255, 255);
+}
+.ListOwner_Left {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 20px;
+  color: black;
+  padding-left: 20px;
+}
+.Owner_Text_1-p {
+  width: 60%;
+  line-height: 25px;
+  color: rgba(0, 0, 0, 0.687);
+  position: relative;
+  text-align: center;
+  right: 500px;
+  transition: all 1s cubic-bezier(.29,.04,.52,1);
+}
+.ListOwner_right {
+  width: 50%;
+  height: 500px;
+}
+.Image86 {
+  width: 100%;
+  clip-path: polygon(83% 0, 100% 0, 100% 100%, 0% 100%);
+  height: 500px;
+  position: relative;
+  right: 500px;
+  transition: all 1s cubic-bezier(.29,.04,.52,1);
+}
+.ListOwner-3 {
+  height: 500px;
+  width: 100%;
+  display: flex;
+}
+.ListOwner3-left {
+  width: 50%;
+  height: 500px;
+}
+.ListOwner3-right {
+  width: 50%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.Image87 {
+  width: 100%;
+  height: 500px;
+  clip-path: polygon(0 0, 100% 0, 42% 100%, 0% 100%);
+  position: relative;
+  left: 800px;
+  transition: all 1s cubic-bezier(.29,.04,.52,1);
+}
+.OwnerTextPage4-h1 {
+  color: rgb(0, 0, 0);
+}
+.OwnerTextPage4 {
+  width: 80%;
+  line-height: 30px;
+  color: rgba(0, 0, 0, 0.706);
+  text-align: center;
+  position: relative;
+  right: 700px;
+  transition: all 1s cubic-bezier(.29,.04,.52,1);
+}
+.ListOwner-4 {
+  width: 100%;
+  height: 500px;
+  display: flex;
+}
+.Image88 {
+  width: 100%;
+  height: 500px;
+  clip-path: polygon(0 0, 100% 0, 42% 100%, 0% 100%);
+  position: relative;
+  left: 500px;
+  transition: all 1s cubic-bezier(.29,.04,.52,1);
+}
+.Image89 {
+  width: 50%;
+  height: 10px;
+  position: relative;
+  right: 500px;
+  transition: all 1s cubic-bezier(.29,.04,.52,1);
+}
+.ListOwner-4-Right {
+  width: 40%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 20px;
+  color: black;
+}
+
+
+@media only screen and (max-width: 1281px) {
+  .ListOwner-1 {
+    height: 700px;
+  }
+  .Owner_Text-div {
+    width: 100%;
+    height: 500px;
+  }
+  
+  .Image85 {
+    height: 700px;
+  }
+  .ListOwner-2 {
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    row-gap: 50px;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+  .ListOwner_Left {
+    width: 100%;
+    
+  }
+  .ListOwner_right {
+    width: 100%;
+    height: 100%;
+  }
+  .Image86 {
+    clip-path:none;
+    height: 650px;
+  }
+  .ListOwner-3 {
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    row-gap: 50px;
+    align-items: center;
+    padding-bottom: 20px;
+    overflow: hidden;
+  }
+  .ListOwner3-left {
+    width: 100%;
+    height: 500px;
+  }
+  .ListOwner3-right {
+    width: 100%;
+  }
+  .Image87 {
+    clip-path:none;
+    left: 0;
+  }
+  .ListOwner-4 {
+    flex-wrap: wrap;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    row-gap: 50px;
+    align-items: center;
+  }
+  .OwnerTextPage4 {
+    right: 800px;
+  }
+  .Image88 {
+    clip-path:none;
+    width: 100%;
+    left: 0;
+  }
+  .ListOwner-4-Right {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 50px;
+  }
+  .Owner_Text_1 {
+    font-size: 22px;
+  }
+  .Owner_Text_1-h1{
+    font-size: 55px;
+    right: 200px;
+  }
+}
+
+
+@media only screen and (max-width: 865px) {
+  .ListOwner-1 {
+    height: 500px;
+  }
+  .Owner_Text-div {
+    width: 100%;
+    height: 500px;
+  }
+  
+  .Image85 {
+    height: 500px;
+  }
+  .ListOwner-2 {
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    row-gap: 50px;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+  .ListOwner_Left {
+    width: 100%;
+    height: 350px;
+  }
+  .ListOwner_right {
+    width: 100%;
+  }
+  .Image86 {
+    clip-path:none;
+  }
+  .ListOwner-3 {
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    row-gap: 50px;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+  .ListOwner3-left {
+    width: 100%;
+    height: 500px;
+  }
+  .ListOwner3-right {
+    width: 100%;
+  }
+  .Image87 {
+    clip-path:none;
+  }
+  .ListOwner-4 {
+    flex-wrap: wrap;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    row-gap: 50px;
+    align-items: center;
+  }
+  .OwnerTextPage4 {
+    right: 200px;
+  }
+  .Image88 {
+    clip-path:none;
+  }
+  .ListOwner-4-Right {
+    width: 100%;
+  }
+}
+
+
+@media only screen and (max-width: 541px) {
+  .ListOwner-1 {
+    height: 300px;
+  }
+  .Owner_Text-div {
+    width: 100%;
+    height: 300px;
+  }
+  .Owner_Text_1-h2{
+    font-size: 25px;
+  }
+  .Owner_Text_1-h1{
+    font-size: 30px;
+    right: 200px;
+  }
+  .Owner_Text_1 {
+    right: 200px;
+    padding-left: 50px;
+
+  }
+  .Image85 {
+    height: 300px;
+    right: 200px;
+  }
+  .OwnerTextPage4-h1 {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    width: 70%;
+  }
+  .ListOwner-2 {
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    row-gap: 50px;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+  .ListOwner_Left {
+    width: 100%;
+  }
+  .ListOwner_right {
+    width: 100%;
+  }
+  .Image86 {
+    clip-path:none;
+    height: 400px;
+    right: 200px;
+  }
+  .ListOwner-3 {
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    row-gap: 50px;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+  .ListOwner3-left {
+    width: 100%;
+    height: 400px;
+  }
+  .ListOwner3-right {
+    width: 100%;
+  }
+  .Image87 {
+    clip-path:none;
+    height: 400px;
+  }
+  .ListOwner-4 {
+    flex-wrap: wrap;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    row-gap: 50px;
+    align-items: center;
+  }
+  .OwnerTextPage4 {
+    right: 200px;
+  }
+  .Image88 {
+    clip-path:none;
+    height: 350px;
+  }
+  .ListOwner-4-Right {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 20px;
+  }
+}
+
+
+@media only screen and (max-width: 430px) {
+  .ListOwner_Left {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 20px;
+    color: black;
+    padding-left: 0px;
+    padding-top: 20px;
+  }
+  .OwnerTextPage4 {
+    width: 95%;
+    height: 100%;
+  }
+  .Owner_Text_1-p {
+    width: 95%;
+    right: 200px;
+  }
+}

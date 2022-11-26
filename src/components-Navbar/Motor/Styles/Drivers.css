@@ -1,0 +1,235 @@
+.Page2-Drivers {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+.Page2-Drivers-left {
+  height: 100%;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10%;
+  row-gap: 10px;
+}
+.Page2-Drivers-left > p {
+  line-height: 28px;
+  color: rgba(0, 0, 0, 0.419);
+  width: 50%;
+}
+.Page2-Drivers-right {
+  height: 100%;
+  width: 30%;
+  flex-direction: column;
+  display: flex;
+}
+.Image132 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  right: 400px;
+  transition: all 1s cubic-bezier(.29,.04,.52,1);
+}
+.Image133 {
+  width: 100%;
+  height: 50%;
+  clip-path: polygon(86% 0, 100% 0, 100% 100%, 0 100%);
+  position: relative;
+  bottom: 200px;
+  transition: all 1s cubic-bezier(.29,.04,.52,1);
+}
+.Image134 {
+  width: 100%;
+  height: 50%;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 21% 41%);
+  object-fit: cover;
+  position: relative;
+  bottom: 200px;
+  transition: all 1s cubic-bezier(.29,.04,.52,1);
+}
+
+.Page3-Drivers {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+.Page3-Drivers-left {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+.Page3-Drivers-right > p {
+  line-height: 28px;
+  color: rgba(0, 0, 0, 0.419);
+  width: 50%;
+}
+.Page3-Drivers-right {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 20px;
+}
+
+.Image135 {
+  width: 100%;
+  height: 50%;
+  clip-path: polygon(13% 0, 100% 0, 78% 49%, 53% 100%, 0 100%, 0 16%);
+  position: relative;
+  bottom: 200px;
+  transition: all 1s cubic-bezier(.29,.04,.52,1);
+}
+.Image136 {
+  width: 100%;
+  height: 40%;
+  clip-path: polygon(50% 0%, 53% 0, 33% 100%, 0 100%, 0 0);
+  object-fit: cover;
+  position: relative;
+  bottom: 200px;
+  transition: all 1s cubic-bezier(.29,.04,.52,1);
+}
+
+.Page4-Drivers {
+  height: 700px;
+  width: 100%;
+  display: flex;
+}
+.Page4-Drivers-left {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 5%;
+  row-gap: 10px;
+}
+.Page4-Drivers-left > p {
+  line-height: 28px;
+  color: rgba(0, 0, 0, 0.419);
+  width: 70%;
+}
+.Page4-Drivers-right {
+  height: 100%;
+  width: 50%;
+}
+.Image137 {
+  width: 100%;
+  height: 100%;
+  clip-path: polygon(67% 0, 100% 0, 100% 100%, 0 100%, 67% 0);
+  position: relative;
+  bottom: 200px;
+  transition: all 1s cubic-bezier(.29,.04,.52,1);
+}
+.Drive-top {
+  position: relative;
+  bottom: 200px;
+  transition: all 1s cubic-bezier(.29,.04,.52,1);
+}
+.A-text-Motorsport {
+  position: relative;
+  bottom: 200px;
+  transition: all 1s cubic-bezier(.29,.04,.52,1);
+}
+
+
+
+
+
+@media only screen and (max-width: 840px) {
+  .Page1-Motorsport {
+    height: 500px;
+  }
+  .Image132 {
+    height: 500px;
+  }
+  .Page2-Drivers {
+    flex-wrap: wrap;
+    height: 100%;
+  }
+  .Page2-Drivers-left {
+    margin: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .Page2-Drivers-left > p {
+    width: 80%;
+  }
+  .Page2-Drivers-left >h1 {
+    width: 80%;
+  }
+  .Page2-Drivers-right {
+    width: 100%;
+  }
+  .Image133 {
+    clip-path: none;
+  }
+  .Image134 {
+    clip-path: none;
+    padding-bottom: 50px;
+  }
+
+  .Page3-Drivers {
+    border-top: 5px solid black;
+    flex-wrap: wrap;
+    height: 100%;
+    padding-top: 50px;
+  }
+  .Page3-Drivers-left {
+    margin: 0;
+    width: 100%;
+  }
+  .Page3-Drivers-right > p {
+    width: 80%;
+  }
+  .Page3-Drivers-right >h1 {
+    width: 80%;
+  }
+  .Page3-Drivers-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 5px solid black;
+  }
+  .Image135 {
+    clip-path: none;
+  }
+  .Image136 {
+    clip-path: none;
+  }
+
+  .Page4-Drivers {
+    flex-wrap: wrap;
+    height: 100%;
+  }
+  .Page4-Drivers-left {
+    margin: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .Page4-Drivers-left > p {
+    width: 80%;
+  }
+  .Page4-Drivers-left >h1 {
+    width: 80%;
+  }
+  .Page4-Drivers-right {
+    width: 100%;
+  }
+  .Image137 {
+    clip-path: none;
+  }
+}
