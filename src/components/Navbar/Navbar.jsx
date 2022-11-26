@@ -287,7 +287,7 @@ const Navbar = () => {
                 className="Testxdd"
                 animate={Page_10}
               >
-                PRE-OWNED
+                PRE-OWNEDd
               </motion.div>
             </Link>
             <Link to="./Limited">
