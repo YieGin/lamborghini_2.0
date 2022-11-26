@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
 import "./App.css";
 import LandingPage from "./components/Landing Page/LandingPage";
@@ -31,7 +31,7 @@ import Experience from "./components-Navbar/Motor/Experience";
 import Esports from "./components-Navbar/Motor/Esports";
 const App = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Navbar />
       <Routes>
         <Route path="/" element={<LandingPage />}></Route>
@@ -62,7 +62,7 @@ const App = () => {
         <Route path="/Esports" element={<Esports />}></Route>
       </Routes>
       <Footer />
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 
