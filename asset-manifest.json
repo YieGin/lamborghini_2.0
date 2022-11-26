@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/lamborghini_2.0/static/css/main.d06c3597.css",
-    "main.js": "/lamborghini_2.0/static/js/main.48a7196c.js",
+    "main.js": "/lamborghini_2.0/static/js/main.bfd754ff.js",
     "static/media/1.mp4": "/lamborghini_2.0/static/media/1.aab2e9d265044ff42583.mp4",
     "static/media/42.png": "/lamborghini_2.0/static/media/42.c78e3d564477d84de064.png",
     "static/media/112.png": "/lamborghini_2.0/static/media/112.568ca2d6f3def3ee7304.png",
@@ -158,10 +158,10 @@
     "static/media/73.png": "/lamborghini_2.0/static/media/73.cbf7d90196bfd21c3606.png",
     "index.html": "/lamborghini_2.0/index.html",
     "main.d06c3597.css.map": "/lamborghini_2.0/static/css/main.d06c3597.css.map",
-    "main.48a7196c.js.map": "/lamborghini_2.0/static/js/main.48a7196c.js.map"
+    "main.bfd754ff.js.map": "/lamborghini_2.0/static/js/main.bfd754ff.js.map"
   },
   "entrypoints": [
     "static/css/main.d06c3597.css",
-    "static/js/main.48a7196c.js"
+    "static/js/main.bfd754ff.js"
   ]
 }
