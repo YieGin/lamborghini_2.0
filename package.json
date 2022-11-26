@@ -1,7 +1,7 @@
 {
   "name": "lamborghini",
   "version": "0.1.0",
-  "homepage": "https://YieGin.github.io/lamborgini_2.0/",
+  "homepage": "https://YieGin.github.io/lamborghini_2.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
