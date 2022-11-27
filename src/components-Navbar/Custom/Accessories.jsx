@@ -331,7 +331,7 @@ const Accessories = () => {
               variants={textScrollVariants}
               initial="hidden"
               animate={controls19}
-              className="Bike_Carpier"
+              className="Accessories_Page3_Image1_text"
             >
               The Accessori Originali range offers the finest, yet sporty travel
               pack to accompany you, whether you are planning a quick weekend
@@ -378,7 +378,7 @@ const Accessories = () => {
               variants={textScrollVariants}
               initial="hidden"
               animate={controls16}
-              className="Bike_Carpier"
+              className="Accessories_Page3_Image1_text"
             >
               The new titanium exhaust for Huracan STO is an extremely advanced
               component that doesn’t go unnoticed. Made from lightweight
@@ -422,7 +422,7 @@ const Accessories = () => {
               variants={textScrollVariants}
               initial="hidden"
               animate={controls17}
-              className="Bike_Carpier"
+              className="Accessories_Page3_Image1_text"
             >
               Together with the complete set of engine bay shields and the
               T-Engine cover, the X-Frame support helps adds that finishing

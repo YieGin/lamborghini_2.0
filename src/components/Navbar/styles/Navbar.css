@@ -38,10 +38,10 @@
   position: absolute;
   top: 70px;
   line-height: 60px;
-  z-index: 11;
+  z-index: 80;
   text-decoration: none;
-
 }
+
 h4 {
   color: rgba(255, 255, 255, 0.569);
 }
@@ -58,27 +58,28 @@ h4:hover {
   left: 0;
   top: 50px;
   overflow-x: hidden;
-  z-index: 10;
+  z-index: 50;
 }
 .black-Motor {
   position: absolute;
   width: 100%;
-  height: 430px;
+  height: 450px;
   background-color: black;
   left: 0;
   top: 50px;
   overflow-x: hidden;
-  z-index: 10;
+  z-index: 50;
 }
 .black-Custom {
   position: absolute;
   width: 100%;
-  height: 250px;
+  height: 280px;
   background-color: black;
   left: 0;
   top: 50px;
   overflow-x: hidden;
-  z-index: 10;
+  z-index: 50;
+
 }
 .Models-div > h3 {
   color: rgba(255, 255, 255, 0.852);

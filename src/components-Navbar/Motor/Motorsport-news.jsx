@@ -11,7 +11,7 @@ import "./Styles/Motorsport-news.css";
 const Motorsportnews = () => {
   return (
     <div>
-      <div className="Page1-News">
+      <div id="See" className="Page1-News">
         <h2>NEWS</h2>
         <h1>MOTORSPORT</h1>
         <img className="Image140" src={Image140} alt="" />

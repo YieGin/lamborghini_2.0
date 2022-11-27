@@ -276,7 +276,7 @@ const LandingPage = () => {
       </div>
       <div className="See-All">
         <Link to="./MotorsportNews">
-          <a className="Shoping-a-Bigger">
+          <a href="#See" className="Shoping-a-Bigger">
             <span className="Shoping-span">SEE ALL</span>
             <i className="Shoping-i"></i>
           </a>
