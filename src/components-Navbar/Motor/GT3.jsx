@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useLayoutEffect } from "react";
 import { useAnimation, motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import "./Styles/GT3.css";
@@ -19,6 +19,9 @@ import Image123 from "../../Images/123.png";
 import Image124 from "../../Images/124.png";
 import Image125 from "../../Images/125.png";
 const GT3 = () => {
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const textScrollVariantsGt = {
     visible: { opacity: 1, top: 0 },
     hidden: { opacity: 0 },

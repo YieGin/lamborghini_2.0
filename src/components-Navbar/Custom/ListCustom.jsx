@@ -1,9 +1,12 @@
 import "./Styles/Customization.css";
-import React, { useEffect } from "react";
+import React, { useEffect, useLayoutEffect } from "react";
 import { useAnimation, motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useState } from "react";
 const ListCustom = ({ List }) => {
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const [SvgRight, setSvgRight] = useState(true);
   const [SvgRight2, setSvgRight2] = useState(false);
   const [SvgRight3, setSvgRight3] = useState(false);

@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useLayoutEffect } from "react";
 import { useAnimation, motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import "./Styles/Super-Trofeo.css";
@@ -11,6 +11,9 @@ import Image109 from "../../Images/109.png";
 import Image110 from "../../Images/110.png";
 
 const SuperTrofeo = () => {
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const textScrollSuper = {
     visible: { opacity: 1, bottom: 0 },
     hidden: { opacity: 0 },

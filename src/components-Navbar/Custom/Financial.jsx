@@ -9,13 +9,14 @@ import Image78 from "../../Images/2.jpg";
 import Image79 from "../../Images/78.png";
 import Image80 from "../../Images/80.png";
 import Image81 from "../../Images/81.png";
-
-import { useState } from "react";
-import React, { useEffect } from "react";
+import React, { useEffect, useLayoutEffect, useState } from "react";
 import { useAnimation, motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
 const Financial = () => {
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const [Pres, setPres] = useState(true);
   const [Pres2, setPres2] = useState(false);
   const [Pres3, setPres3] = useState(false);

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useLayoutEffect } from "react";
 import Image59 from "../../Images/59.png";
 import Image60 from "../../Images/60.png";
 import Image61 from "../../Images/61.png";
@@ -9,6 +9,9 @@ import Image28 from "../../Images/28.png";
 import Video3 from "../../Video/3.mp4";
 import ListCustom from "./ListCustom";
 const Customization = () => {
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const LandingCard = {
     heroImage: Image59,
     heroText: "AD PERSONAM",

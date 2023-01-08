@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useLayoutEffect } from "react";
 import List from "../List/List";
 import Image2 from "../../Images/2.jpg";
 import Image53 from "../../Images/53.png";
@@ -14,6 +14,9 @@ import Image29 from "../../Images/29.png";
 import Video1 from "../../Video/1.mp4";
 import Video2 from "../../Video/2.mp4";
 const Limited = () => {
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const LandingCard = {
     heroImage: Image53,
     heroText: "LIMITED SERIES",

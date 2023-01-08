@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useLayoutEffect } from "react";
 import { HashRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
 import "./App.css";
@@ -29,6 +29,8 @@ import Drivers from "./components-Navbar/Motor/Drivers";
 import MotorsportNews from "./components-Navbar/Motor/Motorsport-news";
 import Experience from "./components-Navbar/Motor/Experience";
 import Esports from "./components-Navbar/Motor/Esports";
+import { useEffect } from "react";
+import { useState } from "react";
 const App = () => {
   return (
     <HashRouter>

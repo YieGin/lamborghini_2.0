@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useLayoutEffect } from "react";
 import { useAnimation, motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import "./styles/RecallCampaign.css";
@@ -7,6 +7,9 @@ import Image103 from "../../Images/103.png";
 import { useState } from "react";
 
 const RecallCampaign = () => {
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const [setInput, Input] = useState(false);
   const textScrollVariants = {
     visible: { opacity: 1, right: 0 },

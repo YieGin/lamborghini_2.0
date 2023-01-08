@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useLayoutEffect } from "react";
 import List from "../List/List";
 import Image42 from "../../Images/42.png";
 import Image36 from "../../Images/36.png";
@@ -14,6 +14,9 @@ import Image44 from "../../Images/44.png";
 import Video1 from "../../Video/1.mp4";
 import Video2 from "../../Video/2.mp4";
 const Urus = () => {
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const LandingCard = {
     heroImage: Image36,
     heroText: "URUS",

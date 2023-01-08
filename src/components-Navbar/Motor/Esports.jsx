@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useLayoutEffect } from "react";
 import { useAnimation, motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import "./Styles/Esports.css";
@@ -10,6 +10,9 @@ import Image155 from "../../Images/155.png";
 import Image156 from "../../Images/156.png";
 
 const Esports = () => {
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const Ts = {
     visible: { opacity: 1, top: 0 },
     hidden: { opacity: 0 },

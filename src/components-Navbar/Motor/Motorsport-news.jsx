@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useLayoutEffect } from "react";
+
 import Image140 from "../../Images/140.png";
 import Image141 from "../../Images/141.png";
 import Image142 from "../../Images/142.png";
@@ -9,6 +10,9 @@ import Image146 from "../../Images/146.png";
 
 import "./Styles/Motorsport-news.css";
 const Motorsportnews = () => {
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
       <div id="See" className="Page1-News">

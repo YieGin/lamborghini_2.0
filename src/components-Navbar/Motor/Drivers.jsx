@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useLayoutEffect } from "react";
 import { useAnimation, motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import "./Styles/Drivers.css";
@@ -11,6 +11,9 @@ import Image137 from "../../Images/137.png";
 import Image138 from "../../Images/138.png";
 import Image139 from "../../Images/139.png";
 const Drivers = () => {
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const textScrollVariants = {
     visible: { opacity: 1, right: 0 },
     hidden: { opacity: 0 },

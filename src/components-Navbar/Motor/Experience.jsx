@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useLayoutEffect } from "react";
 import { useAnimation, motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import "./Styles/Motorsport.css";
@@ -9,6 +9,9 @@ import Image150 from "../../Images/150.png";
 import Image151 from "../../Images/151.png";
 
 const Experience = () => {
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const Ts = {
     visible: { opacity: 1, top: 0 },
     hidden: { opacity: 0 },

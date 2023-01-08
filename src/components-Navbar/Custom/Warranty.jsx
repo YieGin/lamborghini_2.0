@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useLayoutEffect } from "react";
 import Image83 from "../../Images/83.png";
 import Image82 from "../../Images/82.png";
 import Image61 from "../../Images/61.png";
@@ -9,6 +9,9 @@ import Image28 from "../../Images/28.png";
 import Video3 from "../../Video/3.mp4";
 import WarrantyList from "./Listt/WarrantyList";
 const Warranty = () => {
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const LandingCard = {
     heroImage: Image83,
     heroText: "WARRANTY EXTENSION",

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useLayoutEffect } from "react";
 import List from "../List/List";
 import Image21 from "../../Images/21.png";
 import Image22 from "../../Images/22.png";
@@ -15,6 +15,9 @@ import Image29 from "../../Images/29.png";
 import Video1 from "../../Video/1.mp4";
 import Video2 from "../../Video/2.mp4";
 const Concept = () => {
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const LandingCard = {
     heroImage: Image21,
     heroText: "CONCEPT",

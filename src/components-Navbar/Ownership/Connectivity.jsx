@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useLayoutEffect } from "react";
 import ListOwner from "../List/ListOwner";
 import Image85 from "../../Images/85.png";
 import Image86 from "../../Images/86.png";
@@ -6,6 +6,9 @@ import Image87 from "../../Images/87.png";
 import Image88 from "../../Images/88.png";
 import Image89 from "../../Images/89.png";
 const Connectivity = () => {
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const ListOwnerPage = {
     OwnerImage1: Image85,
     OwnerText1: "LAMBORGHINI",

@@ -1,3 +1,4 @@
+import React, { useEffect, useLayoutEffect, useState } from "react";
 import "./Styles/Accessories.css";
 import Image65 from "../../Images/65.png";
 import Image66 from "../../Images/66.png";
@@ -7,13 +8,13 @@ import Image69 from "../../Images/69.png";
 import Image70 from "../../Images/70.png";
 import Image71 from "../../Images/71.png";
 import Image72 from "../../Images/72.png";
-
-import { useState } from "react";
-import React, { useEffect } from "react";
 import { useAnimation, motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
 const Accessories = () => {
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const [Pres, setPres] = useState(true);
   const [Pres2, setPres2] = useState(false);
   const [Pres3, setPres3] = useState(false);
